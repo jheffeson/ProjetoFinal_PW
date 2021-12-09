@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    font: normal 16px Arial, Verdana, serif;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) rgba(16 23 40/ 100%);
+    
+}
+
+/*variaveis
+:root{
+    --cor-fundo : rgb(41, 41, 41);
+    --cor-hover : rgb(214, 224, 62);
+    --cor-primaria : white; 
+}*/
+
+   
+/*menu com abas
+.dp_menu ul {
+    list-style-type: none;
+    padding: 0; 
+    text-align: center; 
+}
+.dp_menu ul {
+    background-color: var(--cor-fundo)
+}
+
+.dp_menu ul li{
+    display:inline;
+    position: relative;
+}
+
+.dp_menu ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp_menu ul li a:hover{
+    background-color: var(--cor-hover);  
+}*/
+
+/*sub-menu
+.dp_menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+}
+.dp_menu ul li:hover ul{
+    display:block;
+}
+.dp_menu ul ul {
+    width: 150px;
+}
+.dp_menu ul ul li a{
+    display: block;
+}*/
+
+/*texto do site
+p {
+    text-align: justify;
+    text-indent: 20px;
+}*/
+
+
+/*imagem principal*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5% 0; 
+    
+}
+/*imagem e textos*/
+.container .col{
+    width: 430px;
+    position: relative;
+    top: -650px;
+    
+}
+
+.flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.flex-conteiner_sub{
+    display: flex;
+    
+    
+}
+
+.posicao {
+    position: relative;
+    right: -84px;
+}
+
+.titulo_posicao {
+    position: absolute;
+    left: 74px;
+    top: 700px;
+}
+.titulo_posicao_2 {
+    position: absolute;
+    left: 74px;
+    top: 2210px;
+
+}
+
+.rodape{
+    
+    background: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    text-align: center;
+    border-top: 1px solid white;
+    font-size: 12px;
+    padding: 15px 0;
+}
+/*EFEITO NAS IMAGENS*/
+/*#efeito_img{
+    position:relative;
+    padding:4px;
+    background-color: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) rgba(16 23 40/ 100%)}
+#efeito_img:hover{
+    top:-4px;
+    box-shadow:0 2px 2px linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) rgba(16 23 40/ 100%)}
+/*EFEITO NAS IMAGENS*/
+
+.div-quadra{
+    display: flex;
+    justify-content:right;
+    position: absolute;
+    height: 40px;
+    width: 650px;
+    top: 3418px;
+    left: 600px;
+}
+.titulo-quadra{
+    position: absolute;
+    height: 40px;
+    width: 650px;
+    top: 3376px;
+    left: 600px;
+}
+.div-quadraum{
+    display: flex;
+    justify-content:right;
+    position: absolute;
+    height: 40px;
+    width: 650px;
+    top: 2974px;
+    left: 600px;
+}
+.titulo-quadraum{
+    position: absolute;
+    height: 40px;
+    width: 650px;
+    top: 2932px;
+    left: 600px;
+}
+.div-quadratres{
+    display: flex;
+    justify-content:right;
+    position: absolute;
+    height: 40px;
+    width: 650px;
+    top: 1898px;
+    left: 600px;
+}
+.titulo-quadratres{
+    position: absolute;
+    height: 40px;
+    width: 650px;
+    top: 1857px;
+    left: 600px;
+}
+.titulo-quadradois{
+    position: absolute;
+    height: 40px;
+    width: 650px;
+    top: 1420px;
+    left: 600px;
+}
+.div-quadradois{
+    display: flex;
+    justify-content:right;
+    position: absolute;
+    height: 40px;
+    width: 650px;
+    top: 1464px;
+    left: 600px;
+}
+
+
+
+/* .a{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 1%;
+    padding-right: 20%;
+}
+
+.div-coll{
+    margin-top: 43px;
+    width: 50%;
+    background-color: rgb(3, 3, 3);
+    border: 3px solid rgb(99, 99, 99);
+    border-radius: 10px 10px;
+    height: 200px;
+    width: 500px;
+        
+ }
+     */
